@@ -13,8 +13,8 @@ function App() {
     <GlobalProvider>
       <Header />
       <div className="container">
-        <IncomeExpenses />
         <Balance />
+        <IncomeExpenses />
         <TransactionList />
         <AddTransaction />
       </div>
